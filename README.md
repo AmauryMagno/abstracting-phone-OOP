@@ -1,22 +1,14 @@
-# DIO - Trilha .NET - Programação orientada a objetos
-www.dio.me
+# .NET - Object-Oriented Programming
+## Project Challenge
+This project aims to demonstrate Object-Oriented Programming (OOP) concepts using .NET.
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
+## Context
+The goal of this project is to model a basic phone system using OOP principles. It includes an abstract class representing a generic phone, and concrete classes representing different brands and models that inherit from this base class.
 
-## Contexto
-Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+## Class Diagram
+![Class Diagram](Imagens/diagrama.png)
 
-## Proposta
-Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-Você deve criar as suas classes de acordo com o diagrama abaixo:
-
-![Diagrama classes](Imagens/diagrama.png)
-
-## Regras e validações
-1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
-2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
-3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
-
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+## Requirements
+1. The Smartphone class must be abstract, meaning it cannot be instantiated directly and should serve only as a base model.
+2. The Nokia and iPhone classes must inherit from the Smartphone class.
+3. The InstallApplication method must be overridden in both the Nokia and iPhone classes, as each brand has a different way of installing applications.
