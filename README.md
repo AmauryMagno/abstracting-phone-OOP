@@ -13,5 +13,5 @@ The goal of this project is to model a basic phone system using OOP principles. 
 2. The Nokia and iPhone classes must inherit from the Smartphone class.
 3. The InstallApplication method must be overridden in both the Nokia and iPhone classes, as each brand has a different way of installing applications.
 
-## TestCode
+## CodeTest
 ![Class Diagram](Imagens/testCode.png)
